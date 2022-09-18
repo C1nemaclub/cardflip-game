@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cardflip-game/static/css/main.b1100570.css",
-    "main.js": "/cardflip-game/static/js/main.91323199.js",
+    "main.js": "/cardflip-game/static/js/main.7ad5218b.js",
     "static/js/787.64b34fb2.chunk.js": "/cardflip-game/static/js/787.64b34fb2.chunk.js",
     "static/media/GoldBracelet.png": "/cardflip-game/static/media/GoldBracelet.cc53c11e84a5119e1271.png",
     "static/media/Jade.png": "/cardflip-game/static/media/Jade.00a18d77f9319e96a33e.png",
@@ -14,11 +14,11 @@
     "static/media/BreatheFireIi-2z9W.ttf": "/cardflip-game/static/media/BreatheFireIi-2z9W.504840d318f330da702d.ttf",
     "index.html": "/cardflip-game/index.html",
     "main.b1100570.css.map": "/cardflip-game/static/css/main.b1100570.css.map",
-    "main.91323199.js.map": "/cardflip-game/static/js/main.91323199.js.map",
+    "main.7ad5218b.js.map": "/cardflip-game/static/js/main.7ad5218b.js.map",
     "787.64b34fb2.chunk.js.map": "/cardflip-game/static/js/787.64b34fb2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1100570.css",
-    "static/js/main.91323199.js"
+    "static/js/main.7ad5218b.js"
   ]
 }
