@@ -13,7 +13,6 @@ function App() {
   const [choiceTwo, setChoiceTwo] = useState(null);
   const [mainScreen, setMainScreen] = useState(true);
   const [win, setWin] = useState(false);
-  console.log(window.location.pathname);
 
   useEffect(() => {
     setCards(
@@ -122,5 +121,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
