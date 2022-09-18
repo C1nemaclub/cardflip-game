@@ -1,13 +1,14 @@
-# Card flip game using React
+# Card Flip Game using React
 
 *You need to match the pair cards by clicking on them, the goal is to flip all cards*
 
 Live demo: https://cardflip-game.herokuapp.com/
 
-*To clone the project*
-* https://github.com/C1nemaclub/cardflip-game.git * 
+*Clone project with :*
 
-*Install dependecies with npm install*
+**git clone https://github.com/C1nemaclub/cardflip-game.git**
+
+**npm install** To install required dependencies
 
 **npm start** on the directory you have cloned to repository in order to play.
 
