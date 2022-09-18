@@ -1,12 +1,22 @@
+.App {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: url("../assets//images//tavern.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
 .card-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(12rem, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   place-items: center;
   width: 80%;
-  height: 700px;
+  height: 100%;
   margin: auto;
+  padding-top: 1rem;
   grid-gap: 2rem;
   position: relative;
 }
@@ -52,5 +62,128 @@
   background-size: cover;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  -webkit-transition: 0.05s ease-in-out;
+  transition: 0.05s ease-in-out;
+}
+
+.card-grid .card .back:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.mainScreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.4)), to(rgba(4, 9, 30, 0.4))), url(../assets/images/background.jpg);
+  background: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(../assets/images/background.jpg);
+  background-size: cover;
+  background-position: center center;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainScreen button {
+  font-size: 4rem;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-animation: pulse 0.8s infinite linear alternate;
+          animation: pulse 0.8s infinite linear alternate;
+  background: none;
+  color: #fff;
+}
+
+.mainScreen button:hover {
+  color: orange;
+  -webkit-animation: none;
+          animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.win {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1000;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3rem;
+  border-radius: 5px;
+  background: url("../assets/images/scroll3.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.win button {
+  font-size: 4rem;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background: none;
+}
+
+.win button:hover {
+  color: orange;
+  -webkit-animation: none;
+          animation: none;
+}
+
+.timer {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3rem;
+  z-index: 100;
 }
 /*# sourceMappingURL=Main.css.map */

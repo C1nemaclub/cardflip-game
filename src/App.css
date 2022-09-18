@@ -1,5 +1,11 @@
+@font-face {
+  font-family: mainFont;
+  src: url('./assets/fonts/BreatheFireIi-2z9W.ttf');
+}
+
 * {
   margin: 0;
+  font-family: mainFont;
   padding: 0;
   box-sizing: border-box;
 }

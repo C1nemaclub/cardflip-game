@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import cardBack from '../assets/images/cardback.png';
 
 export default function Card(props) {

@@ -2,6 +2,7 @@ import CardBack from './images/cardback.png';
 import BrassMug from './images/BrassMug.png';
 import BronzeCrown from './images/BronzeCrown.png';
 import GoldBracelet from './images/GoldBracelet.png';
+import Jade from './images/Jade.png';
 
 import uuid from 'react-uuid';
 
@@ -23,5 +24,11 @@ export default [
     selected: false,
     match: false,
     name: 'Gold Bracelet',
+  },
+  {
+    image: Jade,
+    selected: false,
+    match: false,
+    name: 'Jade',
   },
 ];
